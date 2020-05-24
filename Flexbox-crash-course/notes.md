@@ -27,3 +27,7 @@ Refer: https://stackoverflow.com/questions/27539262/whats-the-difference-between
 10. **flex-shrink:<length>** - can assign less length for individual items in a row or column
 11. **flex:<integer>** - combination of flex-grow and flex-shrink
 12. **order:<integer>** - can reorder elements with out changing the html
+
+## Complete example set
+https://www.youtube.com/watch?v=k32voqQhODc
+
