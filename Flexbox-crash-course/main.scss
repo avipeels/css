@@ -6,13 +6,17 @@
     }
     // flex:1 will give 3 even boxes
     // flex:2 will increase the with of box
+    // order: will arrange the columns along horizontal;
     .box-1 {
         flex: 2;
+        order:2;
     }
     .box-2 {
         flex: 1;
+        order:1;
     }
     .box-3 {
         flex: 1;
+        order:3;
     }
 }
