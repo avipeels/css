@@ -15,8 +15,7 @@ It is a css3 layout mode that provides an easy and clean way of arranging items 
 ## Properties
 1. **display: flex | inline-flex** - main property
 2. **flex-direction: row(*horizontal*) | column(*vertical*)** - alignments
-### note: 
-For flex-directio: row - the *cross-axis* is meant to be vertical and *main-axis* is meant to be horizontal and vice-versa
+    Note: For flex-directio: row - the *cross-axis* is meant to be vertical and *main-axis* is meant to be horizontal and vice-versa
 3. **flex-wrap: wrap | no-wrap | wrapreverse** - if we change the browser size, how the items will act
 4. **flex-basis: <length>** - similar to width
 5. **justify-content: flex-start(*left aligned*) | flex-end(*right aligned*) | center** - similar to floats
