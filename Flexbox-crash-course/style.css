@@ -1,0 +1,3 @@
+.container-1 [class^="box-"] {
+  border: 1px #ccc solid;
+  padding: 10px; }
