@@ -1,4 +1,5 @@
 .container-1 {
+    display: flex;
     [class^="box-"] {
         border: 1px #ccc solid;
         padding: 10px;
