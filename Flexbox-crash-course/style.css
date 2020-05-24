@@ -1,23 +1,31 @@
-.container-1 {
-  display: flex; }
-  .container-1 [class^="box-"] {
-    border: 1px #ccc solid;
-    padding: 10px; }
-  .container-1 .box-1 {
-    flex: 2;
-    order: 2; }
-  .container-1 .box-2 {
-    flex: 1;
-    order: 1; }
-  .container-1 .box-3 {
-    flex: 1;
-    order: 3; }
+@media screen and (min-width: 768px) {
+  .container-1 {
+    display: flex; } }
 
-.container-2 {
-  display: flex;
-  justify-content: space-between; }
-  .container-2 [class^="container-2-"] {
-    border: 1px #ccc solid;
-    padding: 10px; }
-  .container-2 .container-2-box {
-    width: 30%; }
+.container-1 [class^="box-"] {
+  border: 1px #ccc solid;
+  padding: 10px; }
+
+.container-1 .box-1 {
+  flex: 2;
+  order: 2; }
+
+.container-1 .box-2 {
+  flex: 1;
+  order: 1; }
+
+.container-1 .box-3 {
+  flex: 1;
+  order: 3; }
+
+@media screen and (min-width: 768px) {
+  .container-2 {
+    display: flex;
+    justify-content: space-between; } }
+
+.container-2 [class^="container-2-"] {
+  border: 1px #ccc solid;
+  padding: 10px; }
+
+.container-2 .container-2-box {
+  flex-basis: 30%; }
