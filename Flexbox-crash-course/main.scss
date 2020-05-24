@@ -2,7 +2,7 @@
     display: flex;
     //align-items: will arrange the arrange the element either to top/bottom/center and extra space utilized by it will be freed
     // align-items: flex-end;
-    flex-direction: column;
+    // flex-direction: column;
     [class^="box-"] {
         border: 1px #ccc solid;
         padding: 10px;
@@ -21,5 +21,21 @@
     .box-3 {
         flex: 1;
         order: 3;
+    }
+}
+.container-2 {
+    display: flex;
+    // justify-content: flex-start;
+    // justify-content: flex-end;
+    // justify-content: center;
+    // justify-content: space-around;
+    // justify-content: space-evenly;
+    justify-content: space-between;
+    [class^="container-2-"] {
+        border: 1px #ccc solid;
+        padding: 10px;
+    }
+    .container-2-box {
+        width: 30%;
     }
 }
