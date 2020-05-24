@@ -5,8 +5,9 @@
         padding: 10px;
     }
     // flex:1 will give 3 even boxes
+    // flex:2 will increase the with of box
     .box-1 {
-        flex: 1;
+        flex: 2;
     }
     .box-2 {
         flex: 1;
