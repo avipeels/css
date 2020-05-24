@@ -1,17 +1,20 @@
+[class^="box-"],
+[class^="container-2-"],
+[class^="container-3-"] {
+    border: 1px #ccc solid;
+    padding: 10px;
+}
 .container-1 {
     @media screen and (min-width: 768px) {
         display: flex;
     }
-    //align-items: will arrange the arrange the element either to top/bottom/center and extra space utilized by it will be freed
-    // align-items: flex-end;
-    // flex-direction: column;
-    [class^="box-"] {
-        border: 1px #ccc solid;
-        padding: 10px;
-    }
-    // flex:1 will give 3 even boxes
-    // flex:2 will increase the with of box
-    // order: will arrange the columns along horizontal;
+    /* align-items: will arrange the arrange the element either to top/bottom/center and extra space utilized by it will be freed
+    align-items: flex-end;
+    flex-direction: column;
+    flex:1 will give 3 even boxes
+    flex:2 will increase the with of box
+    order: will arrange the columns along horizontal;
+    */
     .box-1 {
         flex: 2;
         order: 2;
@@ -30,16 +33,22 @@
         display: flex;
         justify-content: space-between;
     }
-    // justify-content: flex-start;
-    // justify-content: flex-end;
-    // justify-content: center;
-    // justify-content: space-around;
-    // justify-content: space-evenly;
-    [class^="container-2-"] {
-        border: 1px #ccc solid;
-        padding: 10px;
-    }
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    */
     .container-2-box {
         flex-basis: 30%;
+    }
+}
+
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .container-3-box {
+        flex-basis: 15%;
     }
 }
