@@ -3,3 +3,9 @@
   .container-1 [class^="box-"] {
     border: 1px #ccc solid;
     padding: 10px; }
+  .container-1 .box-1 {
+    flex: 1; }
+  .container-1 .box-2 {
+    flex: 1; }
+  .container-1 .box-3 {
+    flex: 1; }

@@ -4,10 +4,14 @@
         border: 1px #ccc solid;
         padding: 10px;
     }
+    // flex:1 will give 3 even boxes
     .box-1 {
+        flex: 1;
     }
     .box-2 {
+        flex: 1;
     }
     .box-3 {
+        flex: 1;
     }
 }
