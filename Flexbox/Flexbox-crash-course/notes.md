@@ -31,3 +31,6 @@ Refer: https://stackoverflow.com/questions/27539262/whats-the-difference-between
 ## Complete example set
 https://www.youtube.com/watch?v=k32voqQhODc
 
+
+justify-content: It is mostly for aligning elements horizontal
+align-items: It is mostly for aligning elements vertically
