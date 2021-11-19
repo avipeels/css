@@ -126,11 +126,11 @@ body {
       width: 3px;
       background-color: var(--color-primary);
       transform: scaleY(0);
-      transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s background-color 0.1s; }
+      transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s; }
     .side-nav__item:hover:before {
       transform: scaleY(1);
       width: 100%; }
-    .side-nav__item:active:before {
+    .side-nav__item:active::before {
       background-color: var(--color-primary-light); }
   .side-nav__link:visited, .side-nav__link:link {
     color: var(--color-grey-light-1);

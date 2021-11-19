@@ -138,7 +138,7 @@
       background-color: var(--color-primary);
       transform: scaleY(0);
       transition: transform .2s,
-                  width .4s cubic-bezier(1,0,0,1) .2s
+                  width .4s cubic-bezier(1,0,0,1) .2s,
                   background-color .1s;
     }
     &:hover {
@@ -148,7 +148,7 @@
       }
     }
     &:active {
-      &:before {
+      &::before {
         background-color: var(--color-primary-light);
 
       }
