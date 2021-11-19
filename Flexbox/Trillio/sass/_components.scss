@@ -233,8 +233,9 @@
     display: flex;
     align-items: center;
   }
+
   &__icon-location {
-    margin-right: .5rem;
+    margin-right: 0.5rem;
   }
 
   &__rating {
@@ -251,11 +252,11 @@
 
   &__rating-average {
     font-size: 2.25rem;
-    font-weight:  300;
+    font-weight: 300;
   }
 
   &__rating-count {
-    font-size: .8rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
   }
 }
@@ -296,4 +297,69 @@
     transform: scale(1);
     box-shadow: none;
   }
+}
+////////////////////////////////////////////////////
+// PARAGRAPH
+
+.paragraph {
+  padding: 3rem 3rem 0;
+}
+
+.paragraph:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+////////////////////////////////////////////////////
+// LIST
+
+.list {
+  list-style: none;
+  padding: 3rem;
+  margin: 3rem 0;
+  border-top: var(--line);
+  border-bottom: var(--line);
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    flex: 0 0 50%;
+
+    &:before {
+      content: "";
+      display: inline-block;
+      height: 1rem;
+      width: 1rem;
+      margin-right: 0.7rem;
+      background-color: var(--color-primary);
+      -webkit-mask-image: url("../img/chevron-thin-right.svg");
+      -webkit-mask-size: cover;
+    }
+  }
+}
+////////////////////////////////////////////////////
+// RECOMMEND
+
+.recommend {
+  font-size: 1.3rem;
+  display: flex;
+  color: var(--color-grey-dark-3);
+  align-items: center;
+  padding: 3rem 3rem 0;
+
+  &__photo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-sizing: content-box;
+
+    &:not(:last-child) {
+      margin-right: -1.5rem;
+    }
+  }
+
+  &__count {
+    margin-right: auto;
+  }
+
+  &__friends {}
 }
