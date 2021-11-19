@@ -12,13 +12,13 @@
     align-items: flex-end;
     flex-direction: column;
     flex:1 will give 3 even boxes
-    flex:2 will increase the with of box
+    flex:2 will increase the with of boxÎ
     order: will arrange the columns along horizontal;
     */
     .box-1 {
         flex: 2;
         order: 2;
-    }
+    }Î
     .box-2 {
         flex: 1;
         order: 1;
